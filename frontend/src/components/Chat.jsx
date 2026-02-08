@@ -4,7 +4,7 @@ import { Send, Upload, FileText, Loader2, Trash2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 
-const HOST = "http://localhost:8003";
+const HOST = import.meta.env.VITE_API_URL || "http://localhost:8003";
 
 const Chat = () => {
     const [messages, setMessages] = useState([
