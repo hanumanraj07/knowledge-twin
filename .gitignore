@@ -1,0 +1,25 @@
+# Environment & API Keys
+.env
+.env.local
+.env.*.local
+*.log
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/temp_*
+backend/debug_rag.log
+backend/models_list.txt
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vscode/
+
+# Editor & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
