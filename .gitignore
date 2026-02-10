@@ -13,6 +13,7 @@ backend/temp_*
 backend/debug_rag.log
 backend/models_list.txt
 
+
 # Node / Frontend
 frontend/node_modules/
 frontend/dist/
